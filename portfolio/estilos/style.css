@@ -16,16 +16,23 @@ verde neon: #05F26C
     scroll-behavior: smooth;
 }
 
-#menu{
+header{ 
     background-color: #0D0D0D;
+    display: flex; /*Faz com q o MENU fique com a LOGO e os LINKS em linha*/
+    padding: 2rem;
 }
 
-#menu > h1{
-    display: inline;
-    text-align: left;
-    color: white;
+#logo{
+    color: #05F26C;
 }
 
-#menu > a {
-    color: white;
+.links { 
+    display: flex; /* faz com q os LINKS fiquem em LINHA*/
+    margin-left: auto; /*faz com q os links fiquem a esquerda*/
+    gap: 30px;
+}
+
+header a{
+    color: #60BF89;
+    text-decoration: none;
 }
