@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+                                    /*MOBILE FIRST*/
 /*
     Cores:
 preto: #0D0D0D
@@ -13,12 +13,69 @@ verde neon: #05F26C
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
+header{
+    background-color: #0D0D0D;
+    padding: 10px;
+}
+
+header h1{
+    color: #05F26C;
+    text-align: left;
+    margin: 5px;
+}
+
+header a{
+    display: block;
+    font-size: 1.3em;
+    margin: 8px;
+    color: #05F26C;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+header a:hover{
+    background-image: linear-gradient(to right, #01260E, #60BF89);
+    border-radius: 25%;
+    text-decoration: line-through;
+    color: black;
+
+}
+
+.menu-toggle{
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+
+.menu-toggle:hover{
+    cursor: pointer;
+    background-color: #01260E;
+    border-radius: 10px;
+    color: #05F26C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 header{ 
     background-color: #0D0D0D;
-    display: flex; /*Faz com q o MENU fique com a LOGO e os LINKS em linha*/
+    display: flex; Faz com q o MENU fique com a LOGO e os LINKS em linha
     padding: 2rem;
 }
 
@@ -27,8 +84,8 @@ header{
 }
 
 .links { 
-    display: flex; /* faz com q os LINKS fiquem em LINHA*/
-    margin-left: auto; /*faz com q os links fiquem a esquerda*/
+    display: flex; faz com q os LINKS fiquem em LINHA
+    margin-left: auto; /*faz com q os links fiquem a esquerda
     gap: 30px;
 }
 
@@ -36,3 +93,4 @@ header a{
     color: #60BF89;
     text-decoration: none;
 }
+*/
