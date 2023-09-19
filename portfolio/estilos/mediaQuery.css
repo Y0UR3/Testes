@@ -11,7 +11,25 @@ Desktop: de 992px até ++
     .menu-toggle{
         display: none;
     }
+    header{ 
+        background-color: #0D0D0D;
+        display: flex;
+        padding: 20px;
+    }
+    
+    #logo{
+        color: #05F26C;
+    }
+    
+    #menu { 
+        display: flex; 
+        margin-left: auto; 
+        gap: 20px;
+    }
+    
     header a{
-        display: block;
+        color: #60BF89;
+        text-decoration: none;
+        display: inline-block;
     }
 }

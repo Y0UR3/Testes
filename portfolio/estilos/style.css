@@ -71,7 +71,7 @@ header a:hover{
 
 .tela{
     height: 100vh;
-    width: 95vw;
+    width: 100vw;
     margin: auto;
     padding: 10px;
     text-align: justify;
@@ -117,24 +117,5 @@ header a:hover{
 
 
 /*
-header{ 
-    background-color: #0D0D0D;
-    display: flex; Faz com q o MENU fique com a LOGO e os LINKS em linha
-    padding: 2rem;
-}
 
-#logo{
-    color: #05F26C;
-}
-
-.links { 
-    display: flex; faz com q os LINKS fiquem em LINHA
-    margin-left: auto; /*faz com q os links fiquem a esquerda
-    gap: 30px;
-}
-
-header a{
-    color: #60BF89;
-    text-decoration: none;
-}
 */
