@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+    Cores:
+preto: #0D0D0D
+verde forte: #01260E
+verde fraco: #60BF89
+verde medio: #03A64A
+verde neon: #05F26C
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#menu{
+    background-color: #0D0D0D;
+}
+
+#menu > h1{
+    display: inline;
+    text-align: left;
+    color: white;
+}
+
+#menu > a {
+    color: white;
+}
