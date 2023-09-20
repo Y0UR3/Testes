@@ -8,6 +8,9 @@ verde fraco: #60BF89
 verde medio: #03A64A
 verde neon: #05F26C
 
+
+
+
 */
 
 *{
@@ -51,7 +54,6 @@ header a:hover{
     border-radius: 25%;
     text-decoration: line-through;
     color: black;
-
 }
 
 .menu-toggle{ /*Configurações do menu*/
@@ -68,54 +70,71 @@ header a:hover{
 }
 
 /*Fim do Header*/
-
 .tela{
     height: 100vh;
-    width: 100vw;
     margin: auto;
     padding: 10px;
+    padding-top: 85px;
     text-align: justify;
 }
 
 #fotoDePerfil{
     position: absolute;
     left: 0;
+    bottom: 60px;
     height: 250px;
-
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 50%;
+    border: 2px solid #05F26C;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#fotoDePerfil:hover{
+    transform: scale(1.2);
 }
 #eu{
-    background-color: #161616;
+    background-image: linear-gradient(to bottom, #0D0D0D, #161616);
 }
 #eu h1{
-    text-align: end;
+    text-align: center;
     padding: 10px;
+    margin-bottom: 40px;
     color: #05F26C;
+    text-shadow: 1px 1px 1px #60BF89;
 }
 
 #eu p{
     position: absolute;
     right: 0;
-    width: 330px;
+    width: 400px;
     height: 200px;
     padding: 10px;
-
+    margin-bottom: 20px;
     color: #60BF89;
     text-align: right;
     background-color: rgba(128, 128, 128, 0);
 }
 
-
 #sobre{
-    background-color: #01260E;
+    background-image: linear-gradient(to bottom,#161616, #01260E);
 }
 
+#sobre h2{
+    color: #05F26C;
+}
 
+#sobre p{
+    color: #60BF89;
+}
 
+#skills{
+    background-image: linear-gradient(to bottom, #01260E, #0D0D0D);
+}
 
-
-
-
-
-/*
-
-*/
+#skills h2{
+    color: #05F26C;
+}
+#skills p{
+    color: #60BF89;
+}

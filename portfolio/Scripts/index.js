@@ -7,6 +7,15 @@ function toggleMenu() {
     }
 }
 
+var menuLinks = document.querySelectorAll("#menu a");
+for (var i = 0; i < menuLinks.length; i++) {
+    menuLinks[i].addEventListener("click", function() {
+        if (window.innerWidth <= 600) { // Defina aqui a largura máxima para aplicar o comportamento
+            toggleMenu();
+        }
+    });
+}
+
 function mudouTamanho(){
     if (window.innerWidth >= 600){
         menu.style.display = 'block'
