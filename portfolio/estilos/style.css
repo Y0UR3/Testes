@@ -2,11 +2,11 @@
                                     /*MOBILE FIRST*/
 /*
     Cores:
-preto: #0D0D0D
-verde forte: #01260E
-verde fraco: #60BF89
-verde medio: #03A64A
-verde neon: #05F26C
+cinza: #1C2326
+vermelho forte: #591515
+vermelho fraco: #D92938
+vermelho medio: #A61414
+vermelho neon: #D91A1A
 
 
 
@@ -27,7 +27,7 @@ body{
 /* Começo do header */
 
 header{
-    background-color: #0D0D0D;
+    background-color: #1C2326;
     padding: 10px;
     position: sticky;
     top: 0;
@@ -35,8 +35,8 @@ header{
 }
 
 header h1{
-    color: #05F26C;
-    text-align: left;
+    color: #D92938;
+    text-align: right;
     margin: 5px;
 }
 
@@ -44,13 +44,13 @@ header a{
     display: block;
     font-size: 1.3em;
     margin: 8px;
-    color: #05F26C;
+    color: #D92938;
     text-align: center;
     text-decoration: wavy;
 }
 
 header a:hover{
-    background-image: linear-gradient(to right, #01260E, #60BF89);
+    background-image: linear-gradient(to right, #d91a1a70, #1c23266e);
     border-radius: 25%;
     text-decoration: line-through;
     color: black;
@@ -64,28 +64,25 @@ header a:hover{
 
 .menu-toggle:hover{
     cursor: pointer;
-    background-color: #01260E;
+    background-color: #D92938;
     border-radius: 10px;
-    color: #05F26C;
+    color: #1C2326;
 }
 
 /*Fim do Header*/
 .tela{
     height: 100vh;
-    margin: auto;
-    padding: 10px;
-    padding-top: 85px;
-    text-align: justify;
 }
 
 #fotoDePerfil{
+    display: none;
     position: absolute;
     left: 0;
     bottom: 60px;
     height: 250px;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 50%;
-    border: 2px solid #05F26C;
+    border: 2px solid #D91A1A;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -94,47 +91,71 @@ header a:hover{
     transform: scale(1.2);
 }
 #eu{
-    background-image: linear-gradient(to bottom, #0D0D0D, #161616);
+    background-image: linear-gradient(to bottom, #0D0D0D, #1C2326);
+    /*background-image: url(../imagens/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom, left;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #eu h1{
+    font-size: 2.4em;
     text-align: center;
     padding: 10px;
     margin-bottom: 40px;
-    color: #05F26C;
-    text-shadow: 1px 1px 1px #60BF89;
+    color: #D92938;
+}
+
+.destaque{
+    color: #1C2326;
+    background-image: linear-gradient(to right, #7a2525, #D91A1A);
+}
+
+#eu h2{
+    color: #D92938;
+    text-align: center;
 }
 
 #eu p{
-    position: absolute;
+    text-align: center;
+    /*position: absolute;
     right: 0;
     width: 400px;
-    height: 200px;
+    height: 200px;*/
     padding: 10px;
     margin-bottom: 20px;
-    color: #60BF89;
-    text-align: right;
+    color: #D91A1A;
+
     background-color: rgba(128, 128, 128, 0);
 }
 
 #sobre{
-    background-image: linear-gradient(to bottom,#161616, #01260E);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, #1C2326, #0D0D0D);
 }
 
 #sobre h2{
-    color: #05F26C;
+    color: #D92938;
 }
 
 #sobre p{
-    color: #60BF89;
+    color: #D91A1A;
 }
 
 #skills{
-    background-image: linear-gradient(to bottom, #01260E, #0D0D0D);
+    background-image: linear-gradient(to bottom, #0D0D0D, #1C2326);
 }
 
 #skills h2{
-    color: #05F26C;
+    color: #D92938;
 }
 #skills p{
-    color: #60BF89;
+    color: #D91A1A;
 }

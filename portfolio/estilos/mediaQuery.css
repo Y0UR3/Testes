@@ -12,13 +12,9 @@ Desktop: de 992px até ++
         display: none;
     }
     header{ 
-        background-color: #0D0D0D;
+        background-color: #1C2326;
         display: flex;
         padding: 20px;
-    }
-    
-    #logo{
-        color: #05F26C;
     }
     
     #menu { 
@@ -28,7 +24,7 @@ Desktop: de 992px até ++
     }
     
     header a{
-        color: #60BF89;
+        color: #D92938;
         text-decoration: none;
         display: inline-block;
     }
