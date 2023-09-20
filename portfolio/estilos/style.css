@@ -142,7 +142,7 @@ header a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     background-image: linear-gradient(to bottom, #1C2326, #0D0D0D);
 }
@@ -161,7 +161,7 @@ header a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-image: linear-gradient(to bottom, #0D0D0D, #1C2326);
 }
 
@@ -169,7 +169,7 @@ header a:hover{
     margin: 20px;
 }
 #skills p{
-    color: #D91A1A;
+    color: white;
     text-align: left;
     padding: 30px;
 }
