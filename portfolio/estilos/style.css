@@ -75,10 +75,11 @@ header a:hover{
 }
 
 /*Fim do Header*/
+/*Começo do Main*/
 .tela{
     height: 100vh;
 }
-
+/*Tela inicial*/
 #inicio{
     background-image: linear-gradient(to bottom, #0D0D0D, #1C2326);
     /*background-image: url(../imagens/fundo1.jpg);
@@ -122,7 +123,10 @@ header a:hover{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(128, 128, 128, 0);
 }
+/*Fim da tela inicial*/
 
+
+/*Começo do sobre*/
 #sobre{
 
     background-image: linear-gradient(to bottom, #1C2326, #0D0D0D);
@@ -167,7 +171,9 @@ header a:hover{
     border-left: none;
     border-right: none;
 }
+/*Fim do sobre*/
 
+/*Começo das Habilidades*/ 
 #skills{
     display: flex;
     flex-direction: column;
@@ -201,6 +207,68 @@ header a:hover{
     filter: saturate(1);
     border-radius: 10%;
     transform: scale(1.5);
+}
+/*Fim das Habilidades*/
 
+/*Começo dos Projetos*/
+#projetos{
+    background-color: #464646;
+    text-align: right;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+#projetos > h1{
+    padding: 10px;
+    display: inline-block;
+    
+}
+.imgProjetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.imgProjetos .containerCheckpoint{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    background-image: url(../imagens/projetoCheckpoint.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.473);
+    transition: transform 0.2s ease-in-out;
+}
+.imgProjetos .containerCheckpoint:hover{
+    background-color: #0D0D0D;
+    opacity: 40%;
+    filter: saturate(0);
+    transform: scale(.9);
 
+}
+.containerCheckpoint:hover::before{
+    content: "Site de noticias de games";
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgProjetos > div > p{
+    background-color: #1c232688;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.imgProjetos .containerLogin{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    background-image: url(../imagens/projetoLogin.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
