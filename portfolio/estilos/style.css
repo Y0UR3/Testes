@@ -46,7 +46,7 @@ header h1{
     font-weight: 300;
 }
 header a{ 
-    display: none;
+    display: block;
     font-size: 1.3em;
     margin: 8px;
     color: #D92938;
