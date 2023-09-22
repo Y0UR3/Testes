@@ -172,7 +172,7 @@ header a:hover{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     background-image: linear-gradient(to bottom, #0D0D0D,rgb(68, 68, 68));
   /*  background-image: linear-gradient(to bottom, #0D0D0D, #1C2326);*/
 }
@@ -189,7 +189,8 @@ header a:hover{
 
 #imgSkills img{
     height: 70px;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     opacity: 40%;
     filter: saturate(0);
     transition: transform 0.3s ease-in-out;
