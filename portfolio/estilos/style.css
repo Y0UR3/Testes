@@ -138,9 +138,16 @@ header a:hover{
     justify-content: flex-start;
 }
 #sobre h2{
+    font-size: 2em;
     margin: 20px;
 }
-
+#sobre h3{
+    margin: 20px;
+    color: white;
+}
+.cor2{
+    color: #D91A1A;
+}
 #sobre p{
     text-align: left;
     color: white;
@@ -149,6 +156,7 @@ header a:hover{
 }
 
 #fotoDePerfil{
+    display: none;
     align-items: end;
     height: 250px;
     margin-left: 50px;
@@ -163,16 +171,31 @@ header a:hover{
 #skills{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
     background-image: linear-gradient(to bottom, #0D0D0D, #1C2326);
 }
 
 #skills h2{
+    font-size: 2em;
     margin: 20px;
 }
 #skills p{
     color: white;
     text-align: left;
     padding: 30px;
+}
+
+#imgSkills img{
+    height: 70px;
+    margin: 10px;
+    opacity: 40%;
+    filter: saturate(0);
+    
+}
+#imgSkills img:hover{
+    background-color: #1C2326;
+    opacity: 100%;
+    filter: saturate(1);
+    border-radius: 10%;
 }
