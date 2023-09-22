@@ -231,6 +231,7 @@ header a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     padding: 20px;
 }
@@ -244,11 +245,11 @@ header a:hover{
     background-size: cover;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.473);
     transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
 }
 
 .imgProjetos .containerCheckpoint:hover{
     background-color: #0D0D0D;
-    opacity: 40%;
     filter: saturate(0);
     transform: scale(.9);
 }
@@ -264,8 +265,67 @@ header a:hover{
     width: 350px;
     height: 400px;
     margin: 10px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.473);
     background-image: url(../imagens/projetoLogin.png);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.containerLogin:hover{
+    background-color: #0D0D0D;
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+.imgProjetos .containerSocial{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.473);
+    background-image: url(../imagens/projetoSocial.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgProjetos .containerSocial:hover{
+    background-color: #0D0D0D;
+    filter: saturate(0);
+    transform: scale(.9);
+}
+.imgProjetos .containerCordel{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.473);
+    background-image: url(../imagens/projetoCordel.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgProjetos .containerCordel:hover{
+    background-color: #0D0D0D;
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+/*Fim dos projetos*/
+
+/*Começo do contatos*/
+
+#contato{
+    background-image: linear-gradient(to bottom, rgb(68, 68, 68), #1C2326);
+}
+#inome, #iemail, #iassun{
+    display: block;
+    padding: 5px;
+    margin:10px;
 }
