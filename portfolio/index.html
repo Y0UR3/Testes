@@ -20,7 +20,7 @@
                 <a href="#sobre">Sobre mim</a>
                 <a href="#skills">Skills</a>
                 <a href="#projetos">Projetos</a>
-                <a href="#anco5">Contato</a>
+                <a href="#contato">Contato</a>
             </nav>
     </header>
     <main>
@@ -43,14 +43,14 @@
             <h2 class="destaque">Habilidades</h2>
             <p>O que eu sei <span class="cor2">até agora</span></p>
                 <div id="imgSkills">
-                    <img src="imagens/html5logo.png" alt="Logo HTML5" title="Conhecimento solido em HTML 5">
-                    <img src="imagens/css3logo.png" alt="Logo CSS3" title="Conhecimento intermediario em CSS3">
-                    <img src="imagens/jsLogo.png" alt="Logo JavaScript" title="Conhecimento basico em JS">
-                    <img src="imagens/githubLogo.png" alt="Logo GitHub" title="Conhecimento solido com GitHub"><br>
-                    <img src="imagens/gitLogo.png" alt="Logo Git" title="Conhecimento intermediario com Git">
-                    <img src="imagens/responLogo.png" alt="Logo Responsividade" title="Conhecimento solido com Responsividade">
-                    <img src="imagens/seoLogo.png" alt="Logo SEO" title="Conhecimento intermediario com SEO">
-                    <img src="imagens/acessLogo.png" alt="Logo Acessibilidade" title="Conhecimento intermediario com Acessibilidade">
+                    <img src="imagens/html5logo.png" alt="Logo HTML5" title="HTML 5">
+                    <img src="imagens/css3logo.png" alt="Logo CSS3" title="CSS3">
+                    <img src="imagens/jsLogo.png" alt="Logo JavaScript" title="Java Script">
+                    <img src="imagens/githubLogo.png" alt="Logo GitHub" title="GitHub"><br>
+                    <img src="imagens/gitLogo.png" alt="Logo Git" title="Git">
+                    <img src="imagens/responLogo.png" alt="Logo Responsividade" title="Responsividade">
+                    <img src="imagens/seoLogo.png" alt="Logo SEO" title="SEO">
+                    <img src="imagens/acessLogo.png" alt="Logo Acessibilidade" title="Acessibilidade">
                 </div>
         </section>
 
@@ -76,20 +76,28 @@
         
         <section class="tela" id="contato">
             <h2 class="destaque">Contato</h2>
-            <form action="" id="formulario">
+            <form action="" id="formulario" autocomplete="off" method="post">
                 <label for="inome">Nome:
-                    <input type="text" name="nome" id="inome">
+                    <input type="text" name="nome" id="inome" placeholder="Seu nome completo :D" required autocomplete="off">
                 </label>
                 <label for="iemail">Email:
-                    <input type="email" name="email" id="iemail">
+                    <input type="email" name="email" id="iemail" placeholder="Seu email" required autocomplete="off">
                 </label>
                 <label for="iassun">Assunto:
-                    <textarea name="assunto" id="iassun" cols="30" rows="10"></textarea>
+                    <textarea name="assunto" id="iassun" cols="10" rows="5" placeholder="O que deseja?" autocomplete="off"></textarea>
+                </label>
+                <label for="ienviar">
+                    <a href="obrigado.html">
+                        <input type="button" id="ienviar" value="Enviar">
+                    </a>
                 </label>
             </form>
         </section>
     </main>
     <footer>
+        <section id="redes">
+            <img src="imagens/githubLogo.png" alt="Link do meu GitHub">
+        </section>
         <p>feito por Zer0</p>
     </footer>
     <script src="Scripts/index.js"></script>

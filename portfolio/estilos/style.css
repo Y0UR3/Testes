@@ -323,9 +323,123 @@ header a:hover{
 
 #contato{
     background-image: linear-gradient(to bottom, rgb(68, 68, 68), #1C2326);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+#contato h2{
+    font-size: 2em;
+    margin: 20px;
+}
+
 #inome, #iemail, #iassun{
     display: block;
     padding: 5px;
-    margin:10px;
+    margin: 20px;
+}
+
+label{
+    color: white;
+    margin: 20px;
+    
+}
+
+#contato input[type= "text"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid  #e63645;
+    outline: none;
+
+    width: 400px;
+    height: 40px;
+
+    background-color: #1c232600;
+    color: #e63645;
+}
+
+#contato input[type= "text"]:hover{
+    border-bottom: 2px solid #D91A1A;
+    background-color: #36393a;
+}
+
+#contato input[type= "email"]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid  #e63645;
+    outline: none;
+
+    width: 400px;
+    height: 40px;
+
+    background-color: #1c232600;
+    color: #D91A1A;
+}
+
+#contato input[type= "email"]:hover{
+    background-color: #36393a;
+    border-bottom: 2px solid #D91A1A;
+}
+
+textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid  #e63645;
+    outline: none;
+
+    width: 400px;
+    height: 100px;
+
+    background-color: #1c232600;
+    color: #D91A1A;
+}
+
+textarea:hover{
+    background-color: #36393a;
+    border-bottom: 2px solid #D91A1A;
+}
+
+#ienviar{
+    background-color: #e63645;
+    color: #1C2326;
+    font-family: 'Space Grotesk';
+    text-align: center;
+    font-size: 1.1em;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    outline: none;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+#ienviar:hover{
+    background-color: #D91A1A;
+    cursor: pointer;
+    transform: scale(.9);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 30px #36393a inset !important;
+    /* Altere o valor do box-shadow conforme necessário */
+    color: inherit !important;
+}
+/*Fim do contato*/
+
+/*Começo do footer*/
+footer{
+    color: #1C2326;
+    height: 150px;
+}
+
+#redes img{
+    background-color: #464646;
+    height: 40px;
 }
