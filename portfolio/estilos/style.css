@@ -230,13 +230,103 @@ header a:hover{
 
 /*Começo dos Projetos*/
 #projetos{
-    background-color: #464646;
+    background-image: linear-gradient(to bottom, rgb(68, 68, 68), #1C2326);
     text-align: right;
-    /*display: flex;
+}
+.paiProjetos{
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
+    text-align: center;
+    height: 100vh;
 }
+
+.paiProjetos h3{
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.paiProjetos p{
+    color: white;
+    margin: 10px;
+}
+
+.checkpoint{
+    background-image: url(../imagens/projetoCheckpoint.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+
+    transition: transform .3s ease;
+}
+
+.checkpoint:hover{
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+.login{
+    background-image: url(../imagens/projetoLogin.png);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    transition: transform .3s ease;
+}
+
+.login:hover{
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+.cordel{
+    background-image: url(../imagens/projetoCordel.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    transition: transform .3s ease;
+}
+
+.cordel:hover{
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+.social{
+    background-image: url(../imagens/projetoSocial.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    transition: transform .3s ease;
+}
+
+.social:hover{
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+
+
+
+
+
+
+
+
 
 #projetos > h1{
     padding: 10px;
