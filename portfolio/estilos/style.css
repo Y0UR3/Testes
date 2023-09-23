@@ -97,6 +97,23 @@ header a:hover{
     padding: 10px;
     margin-bottom: 40px;
     color: #D92938;
+    border-right: 4px solid;
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 2s steps(15), piscada 0.5s infinite step-end alternate;
+}
+@keyframes digitando{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes piscada{
+    50%{
+        border-color: transparent;
+
+    }
 }
 
 .destaque{
