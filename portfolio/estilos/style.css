@@ -98,7 +98,7 @@ header a:hover{
     margin-bottom: 40px;
     color: #D92938;
     border-right: 4px solid;
-    width: 15ch;
+    width: 14ch;
     white-space: nowrap;
     overflow: hidden;
     animation: digitando 2s steps(15), piscada 0.5s infinite step-end alternate;
@@ -370,7 +370,7 @@ label{
     border-bottom: 2px solid  #e63645;
     outline: none;
 
-    width: 400px;
+    width: 300px;
     height: 40px;
 
     background-color: #1c232600;
@@ -389,7 +389,7 @@ label{
     border-bottom: 2px solid  #e63645;
     outline: none;
 
-    width: 400px;
+    width: 300px;
     height: 40px;
 
     background-color: #1c232600;
@@ -408,7 +408,7 @@ textarea{
     border-bottom: 2px solid  #e63645;
     outline: none;
 
-    width: 400px;
+    width: 300px;
     height: 100px;
 
     background-color: #1c232600;
