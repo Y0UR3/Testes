@@ -16,7 +16,7 @@ vermelho neon: #D91A1A
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scroll-padding-top: 95px;
+    scroll-padding-top: 80px;
 }
 
 body{
@@ -130,10 +130,6 @@ header a:hover{
 
 #inicio p{
     text-align: center;
-    /*position: absolute;
-    right: 0;
-    width: 400px;
-    height: 200px;*/
     padding: 30px;
     margin-bottom: 20px;
     color: white;
@@ -157,6 +153,7 @@ header a:hover{
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+
 }
 #sobre h2{
     font-size: 2em;
@@ -178,15 +175,21 @@ header a:hover{
 
 #fotoDePerfil{
     display: none;
-    align-items: end;
     height: 250px;
-    margin-left: 50px;
-    border-bottom-left-radius: 30%;
+    margin: 30px;
+    padding: 5px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    border: 2px solid #D91A1A;
-    border-top: none;
+    border: 1px outset #D91A1A;
     border-left: none;
     border-right: none;
+    transition: transform .3s ease;
+}
+
+#fotoDePerfil:hover{
+    transform: scale(1.4);
 }
 /*Fim do sobre*/
 
@@ -239,7 +242,10 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    border: 1px outset #D91A1A;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .paiProjetos h3{
@@ -252,6 +258,9 @@ header a:hover{
 .paiProjetos p{
     color: white;
     margin: 10px;
+    text-align: center;
+    width: 350px;
+    height: 50px;
 }
 
 .checkpoint{

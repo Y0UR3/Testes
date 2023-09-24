@@ -7,6 +7,7 @@ Laptop: de 768px até 992px
 Desktop: de 992px até ++
 */
 
+/*  Menu se esconde com o maximo de 600px*/
 @media screen and (min-width: 600px) {
     .menu-toggle{
         display: none;
@@ -27,5 +28,56 @@ Desktop: de 992px até ++
         color: #D92938;
         text-decoration: none;
         display: inline-block;
+    }
+
+}
+
+/*  Tablets   */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    #menu a{
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    #inicio  h1{
+        width: 15ch;
+    }
+    #fotoDePerfil{
+        display: block;
+    }
+    .container{
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .paiTodos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #fotoDePerfil{
+        display: block;
+    }
+    .container{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .paiTodos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    #fotoDePerfil{
+        display: block;
+    }
+    .container{
+        justify-content: space-around;
     }
 }
