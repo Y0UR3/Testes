@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaQuery.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio | Yuri</title>
 </head>
 <body onresize="mudouTamanho()">
@@ -24,24 +25,24 @@
             </nav>
     </header>
     <main>
-        <section  class="tela" id="inicio">
+        <section data-aos="fade-up"  class="tela" id="inicio">
             <h1>Olá, eu sou o <span class="destaque">Yuri</span>.</h1>
             <h2>Dev <span class="destaque">Front-end</span> em processo de <span class="destaque">aprendizado</span>!</h2>
             <p><br><br>Atualmente estou com 3 meses de estudo e um conhecimento solido em HTML e CSS!<br>Comecei o JS em 17/09/2023</p>
         </section>
 
         <section class="tela" id="sobre">
-            <h2 id="sobreh2" class="destaque">Sobre mim</h2>
-            <h3  class="cor1">Dev. Front-end <span class="cor2">web</span></h3>
-            <div class="container">
+            <h2 data-aos="fade-up" id="sobreh2" class="destaque">Sobre mim</h2>
+            <h3 data-aos="fade-up" class="cor1">Dev. Front-end <span class="cor2">web</span></h3>
+            <div data-aos="fade-up" class="container">
                 <p>Apaixonado por tecnologia desde criança, com 22 anos me interessei por programação e comecei a estudar Python.<br><br>Porém, gostava de ver resultados na pratica, larguei o back-end e comecei a estudar front-end!<br><br></bre>Estudei bastante HTML 5 e CSS 3, agora estou indo para o JavaScript, para poder então estudar React e Angular.<br><br>Quanto mais estudo, mais fico fascinado por esse mundo de códigos.</p>
                 <img id="fotoDePerfil" src="imagens/imgPerfil2.jpeg" alt="foto De Perfil">
             </div>
         </section>
 
         <section class="tela" id="skills">
-            <h2 class="destaque">Habilidades</h2>
-            <p>O que eu sei <span class="cor2">até agora</span></p>
+            <h2 data-aos="fade-up" class="destaque">Habilidades</h2>
+            <p data-aos="fade-up">O que eu sei <span class="cor2">até agora</span></p>
                 <div id="imgSkills">
                     <img src="imagens/html5logo.png" alt="Logo HTML5" title="HTML 5">
                     <img src="imagens/css3logo.png" alt="Logo CSS3" title="CSS3">
@@ -89,16 +90,16 @@
         </section>
         
         <section class="tela" id="contato">
-            <h2 class="destaque">Contato</h2>
+            <h2 data-aos="fade-up" class="destaque">Contato</h2>
             <form action="" id="formulario" autocomplete="off" method="post">
-                <label for="inome">Nome:
-                    <input type="text" name="nome" id="inome" placeholder="Seu nome completo :D" required autocomplete="off">
+                <label data-aos="fade-up" for="inome">Nome:
+                    <input data-aos="fade-up" type="text" name="nome" id="inome" placeholder="Seu nome completo :D" required autocomplete="off">
                 </label>
-                <label for="iemail">Email:
-                    <input type="email" name="email" id="iemail" placeholder="Seu email" required autocomplete="off">
+                <label data-aos="fade-up" for="iemail">Email:
+                    <input data-aos="fade-up" type="email" name="email" id="iemail" placeholder="Seu email" required autocomplete="off">
                 </label>
-                <label for="iassun">Assunto:
-                    <textarea name="assunto" id="iassun" cols="10" rows="5" placeholder="O que deseja?" autocomplete="off"></textarea>
+                <label data-aos="fade-up" for="iassun">Assunto:
+                    <textarea data-aos="fade-up" name="assunto" id="iassun" cols="10" rows="5" placeholder="O que deseja?" autocomplete="off"></textarea>
                 </label>
                 <label for="ienviar">
                     <a href="obrigado.html">
@@ -118,5 +119,9 @@
         <p class="marca"><br><br>feito por Zer0</p>
     </footer>
     <script src="Scripts/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
